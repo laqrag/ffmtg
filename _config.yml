@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
 title: Final Fantasy MTG
 description: Original scene of FF and MTG collaboration card
-baseurl: ""
-url: "https://laqrag.github.io/ffmtg"
+baseurl: "/ffmtg"
+url: "https://laqrag.github.io/"
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -12,4 +12,3 @@ plugins:
 # Optional settings
 exclude:
   - README.md
-  - index.md
