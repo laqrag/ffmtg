@@ -1,6 +1,6 @@
-theme: minima
-title: My GitHub Pages Project
-description: A project with multiple sections linked in a sidebar.
+theme: jekyll-theme-minimal
+title: Final Fantasy MTG
+description: Original scene of FF and MTG collaboration card
 baseurl: ""
 url: "https://laqrag.github.io/ffmtg"
 markdown: kramdown
@@ -13,7 +13,3 @@ plugins:
 exclude:
   - README.md
   - index.md
-
-theme: jekyll-theme-minimal
-title: Final Fantasy MTG
-description: FF MTG Collection
