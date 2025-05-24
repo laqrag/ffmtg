@@ -1,16 +1,27 @@
 ---
 layout: default
-title: FF6 Page
+title: FF VI
 ---
 
-# FF6 Page
+<div class="section-block">
+  <div class="section-title">日本語タイトル名 / English Title Name</div>
+  <div class="section-images">
+    <img src="/ffmtg/assets/sample1.jpg" alt="画像1">
+    <img src="/ffmtg/assets/sample2.jpg" alt="画像2">
+  </div>
+  <div class="section-comment">コメント文</div>
+  <hr>
+</div>
 
-Welcome to the FF6 section of the project. Here you can include content specific to FF6. Feel free to add any relevant information, links, or resources that pertain to this section.
+<div class="section-block">
+  <div class="section-title">別のタイトル / Another Title</div>
+  <div class="section-images">
+    <img src="/ffmtg/assets/sample3.jpg" alt="画像1">
+    <img src="/ffmtg/assets/sample4.jpg" alt="画像2">
+    <img src="/ffmtg/assets/sample5.jpg" alt="画像3">
+  </div>
+  <div class="section-comment">別のコメント文</div>
+  <hr>
+</div>
 
-## Content Overview
-
-- Description of FF6
-- Key features
-- Additional resources
-
-{% include sidebar.html %}
+<!-- 上記ブロックを繰り返し追加していくことで、10～100回の繰り返しが可能です -->
