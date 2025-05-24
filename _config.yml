@@ -2,7 +2,7 @@ theme: minima
 title: My GitHub Pages Project
 description: A project with multiple sections linked in a sidebar.
 baseurl: ""
-url: "https://yourusername.github.io/ffmtg"
+url: "https://laqrag.github.io/ffmtg"
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -13,3 +13,7 @@ plugins:
 exclude:
   - README.md
   - index.md
+
+theme: jekyll-theme-minimal
+title: Final Fantasy MTG
+description: FF MTG Collection
