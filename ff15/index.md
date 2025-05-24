@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FF15
+title: FF15 Page
 ---
 
 # FF15 Section

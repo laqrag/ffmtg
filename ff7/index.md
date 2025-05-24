@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FF7
+title: FF7 Page
 ---
 
 # FF7
