@@ -1,6 +1,9 @@
-# Welcome to the FFMTG Project
+---
+layout: default
+title: Final Fantasy MTG Collection
+---
 
-This is the main landing page for the FFMTG project. Below you will find links to various sections of the project.
+# Welcome to Final Fantasy MTG Collection
 
-{% include sidebar.html %}
+このサイトではFinal FantasyとMTGのコラボレーションカードについての情報を掲載しています。
 ```
