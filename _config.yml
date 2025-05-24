@@ -1,0 +1,15 @@
+theme: minima
+title: My GitHub Pages Project
+description: A project with multiple sections linked in a sidebar.
+baseurl: ""
+url: "https://yourusername.github.io/ffmtg"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Optional settings
+exclude:
+  - README.md
+  - index.md
