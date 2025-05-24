@@ -1,6 +1,3 @@
-# Contents of the file: /ffmtg/ffmtg/ff16/index.md
-
-```markdown
 ---
 layout: default
 title: FF16
@@ -17,4 +14,5 @@ Welcome to the FF16 section of the project. Here you can find information and re
 - Detail 3 about FF16
 
 Feel free to explore the other sections linked in the sidebar.
-```
+
+{% include sidebar.html %}
