@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 title: Final Fantasy MTG
 description: Original scene of FF and MTG collaboration card
 baseurl: "/ffmtg"

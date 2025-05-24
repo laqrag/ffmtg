@@ -12,5 +12,3 @@ Welcome to the FF6 section of the project. Here you can include content specific
 - Description of FF6
 - Key features
 - Additional resources
-
-{% include sidebar.html %}
