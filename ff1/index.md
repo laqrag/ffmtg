@@ -6,7 +6,6 @@ title: FF I
 <style>
 .section-images {
   max-width: 400px;
-  margin: 0 auto;
 }
 .section-images img {
   width: 100%;
