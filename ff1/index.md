@@ -3,6 +3,18 @@ layout: default
 title: FF I
 ---
 
+<style>
+.section-images {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.section-images img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+</style>
+
 # 目次
 - [「戦士」の剣](#「戦士」の剣)
 - [「白魔術士」の杖](#「白魔術士」の杖)
