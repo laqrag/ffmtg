@@ -18,6 +18,10 @@ title: FF I
 - [「戦士」の剣](#「戦士」の剣)
 - [「白魔術士」の杖](#「白魔術士」の杖)
 - [「黒魔術士」の杖](#「黒魔術士」の杖)
+- [「シーフ」のナイフ](#「シーフ」のナイフ)
+- [「モンク」の拳](#「モンク」の拳)
+- [「赤魔導士」のレイピア](#「赤魔導士」のレイピア)
+- [冒険者の飛空艇](#冒険者の飛空艇)
 - [グルグ火山の赤竜(エインシャント・カッパー・ドラゴン)](#グルグ火山の赤竜エインシャントカッパードラゴン)
 - [コーネリアの騎士、ガーランド(時を超えしカオス)](#コーネリアの騎士ガーランド時を超えしカオス)
 - [コーネリアの騎士、ガーランド](#コーネリアの騎士ガーランド)
@@ -58,6 +62,42 @@ title: FF I
     <img src="../assets/img/ff1/「黒魔術士」の杖.webp" alt="「黒魔術士」の杖">
   </div>
   <div class="section-comment">「黒魔術士」の杖</div>
+  <hr>
+</div>
+
+<div class="section-block" id="「シーフ」のナイフ">
+  <div class="section-title">「シーフ」のナイフ</div>
+  <div class="section-images">
+    <img src="../assets/img/ff1/「シーフ」のナイフ.webp" alt="「シーフ」のナイフ">
+  </div>
+  <div class="section-comment">「シーフ」のナイフ</div>
+  <hr>
+</div>
+
+<div class="section-block" id="「モンク」の拳">
+  <div class="section-title">「モンク」の拳</div>
+  <div class="section-images">
+    <img src="../assets/img/ff1/「モンク」の拳.webp" alt="「モンク」の拳">
+  </div>
+  <div class="section-comment">「モンク」の拳</div>
+  <hr>
+</div>
+
+<div class="section-block" id="「赤魔導士」のレイピア">
+  <div class="section-title">「赤魔導士」のレイピア</div>
+  <div class="section-images">
+    <img src="../assets/img/ff1/「赤魔導士」のレイピア.webp" alt="「赤魔導士」のレイピア">
+  </div>
+  <div class="section-comment">「赤魔導士」のレイピア</div>
+  <hr>
+</div>
+
+<div class="section-block" id="冒険者の飛空艇">
+  <div class="section-title">冒険者の飛空艇</div>
+  <div class="section-images">
+    <img src="../assets/img/ff1/冒険者の飛空艇.webp" alt="冒険者の飛空艇">
+  </div>
+  <div class="section-comment">冒険者の飛空艇</div>
   <hr>
 </div>
 
