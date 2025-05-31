@@ -17,33 +17,33 @@ title: FF I
 .toggle-btn {
   position: absolute;
   left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  width: 48px;
-  height: 48px;
-  background: #fff;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  width: 44px;
+  height: 44px;
+  background: #111;
   border: none;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 2;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, background 0.2s;
 }
 .toggle-btn:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
-  background: #f0f0f0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.28);
+  background: #333;
 }
 .toggle-btn svg {
-  width: 28px;
-  height: 28px;
-  fill: #888;
+  width: 26px;
+  height: 26px;
+  fill: #fff;
   transition: fill 0.2s;
 }
 .toggle-btn:hover svg {
-  fill: #333;
+  fill: #ffd700;
 }
 </style>
 
