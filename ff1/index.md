@@ -6,11 +6,44 @@ title: FF I
 <style>
 .section-images {
   max-width: 400px;
+  position: relative;
 }
 .section-images img {
   width: 100%;
   height: auto;
   object-fit: contain;
+  display: block;
+}
+.toggle-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: box-shadow 0.2s;
+}
+.toggle-btn:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  background: #f0f0f0;
+}
+.toggle-btn svg {
+  width: 28px;
+  height: 28px;
+  fill: #888;
+  transition: fill 0.2s;
+}
+.toggle-btn:hover svg {
+  fill: #333;
 }
 </style>
 
@@ -122,13 +155,19 @@ title: FF I
 </div>
 
 <div class="section-block" id="コーネリアの騎士ガーランド" data-series="1" data-color="マルチカラー" data-type="クリーチャー">
-  <div class="section-title" data-alt="コーネリアの騎士、ガーランド(時を超えしカオス)">コーネリアの騎士、ガーランド</div>
+  <div class="section-title" data-alt="コーネリアの騎士、ガーランド">コーネリアの騎士、ガーランド</div>
   <div class="section-images">
     <img src="../assets/img/ff1/コーネリアの騎士、ガーランド.webp"
          alt="コーネリアの騎士、ガーランド"
          data-alt-src="../assets/img/ff1/コーネリアの騎士、ガーランド(時を超えしカオス).webp"
-         data-alt-alt="コーネリアの騎士、ガーランド(時を超えしカオス)">
-    <button type="button" onclick="toggleImage(this)">切り替え</button>
+         data-alt-alt="時を超えしカオス">
+    <button type="button" class="toggle-btn" onclick="toggleImage(this)" aria-label="画像切り替え">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20" stroke="#888" stroke-width="3" fill="none"/>
+        <path d="M24 8 A16 16 0 1 1 8 24" stroke="#888" stroke-width="3" fill="none"/>
+        <polygon points="24,4 28,14 20,14" fill="#888"/>
+      </svg>
+    </button>
   </div>
   <div class="section-comment" data-alt="コーネリアの騎士、ガーランド(時を超えしカオス)">コーネリアの騎士、ガーランド</div>
   <hr>
