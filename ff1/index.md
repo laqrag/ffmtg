@@ -20,7 +20,7 @@ title: FF I
 - [「黒魔術士」の杖](#「黒魔術士」の杖)
 - [「シーフ」のナイフ](#「シーフ」のナイフ)
 - [「モンク」の拳](#「モンク」の拳)
-- [「赤魔導士」のレイピア](#「赤魔導士」のレイピア)
+- [「赤魔術士」のレイピア](#「赤魔術士」のレイピア)
 - [冒険者の飛空艇](#冒険者の飛空艇)
 - [グルグ火山の赤竜(エインシャント・カッパー・ドラゴン)](#グルグ火山の赤竜エインシャントカッパードラゴン)
 - [コーネリアの騎士、ガーランド(時を超えしカオス)](#コーネリアの騎士ガーランド時を超えしカオス)
@@ -83,12 +83,12 @@ title: FF I
   <hr>
 </div>
 
-<div class="section-block" id="「赤魔導士」のレイピア">
-  <div class="section-title">「赤魔導士」のレイピア</div>
+<div class="section-block" id="「赤魔術士」のレイピア">
+  <div class="section-title">「赤魔術士」のレイピア</div>
   <div class="section-images">
-    <img src="../assets/img/ff1/「赤魔導士」のレイピア.webp" alt="「赤魔導士」のレイピア">
+    <img src="../assets/img/ff1/「赤魔術士」のレイピア.webp" alt="「赤魔導士」のレイピア">
   </div>
-  <div class="section-comment">「赤魔導士」のレイピア</div>
+  <div class="section-comment">「赤魔術士」のレイピア</div>
   <hr>
 </div>
 
