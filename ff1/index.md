@@ -121,21 +121,16 @@ title: FF I
   <hr>
 </div>
 
-<div class="section-block" id="コーネリアの騎士ガーランド" data-series="1" data-color="マルチ" data-type="クリーチャー">
-  <div class="section-title">コーネリアの騎士、ガーランド</div>
+<div class="section-block" id="コーネリアの騎士ガーランド" data-series="1" data-color="マルチカラー" data-type="クリーチャー">
+  <div class="section-title" data-alt="コーネリアの騎士、ガーランド(時を超えしカオス)">コーネリアの騎士、ガーランド</div>
   <div class="section-images">
-    <img src="../assets/img/ff1/コーネリアの騎士、ガーランド.webp" alt="コーネリアの騎士、ガーランド">
+    <img src="../assets/img/ff1/コーネリアの騎士、ガーランド.webp"
+         alt="コーネリアの騎士、ガーランド"
+         data-alt-src="../assets/img/ff1/コーネリアの騎士、ガーランド(時を超えしカオス).webp"
+         data-alt-alt="コーネリアの騎士、ガーランド(時を超えしカオス)">
+    <button type="button" onclick="toggleImage(this)">切り替え</button>
   </div>
-  <div class="section-comment">コーネリアの騎士、ガーランド</div>
-  <hr>
-</div>
-
-<div class="section-block" id="コーネリアの騎士ガーランド時を超えしカオス" data-series="1" data-color="マルチ" data-type="クリーチャー">
-  <div class="section-title">コーネリアの騎士、ガーランド(時を超えしカオス)</div>
-  <div class="section-images">
-    <img src="../assets/img/ff1/コーネリアの騎士、ガーランド(時を超えしカオス).webp" alt="コーネリアの騎士、ガーランド(時を超えしカオス)">
-  </div>
-  <div class="section-comment">コーネリアの騎士、ガーランド(時を超えしカオス)</div>
+  <div class="section-comment" data-alt="コーネリアの騎士、ガーランド(時を超えしカオス)">コーネリアの騎士、ガーランド</div>
   <hr>
 </div>
 
@@ -175,7 +170,7 @@ title: FF I
   <hr>
 </div>
 
-<div class="section-block" id="光の戦士統べるものジョダー" data-series="1" data-color="マルチ" data-type="クリーチャー">
+<div class="section-block" id="光の戦士統べるものジョダー" data-series="1" data-color="マルチカラー" data-type="クリーチャー">
   <div class="section-title">光の戦士(統べるもの、ジョダー)</div>
   <div class="section-images">
     <img src="../assets/img/ff1/光の戦士(統べるもの、ジョダー).webp" alt="光の戦士(統べるもの、ジョダー)">
@@ -260,5 +255,30 @@ function filterSections() {
       (!type || block.dataset.type === type);
     block.style.display = match ? '' : 'none';
   });
+}
+
+function toggleImage(btn) {
+  const img = btn.parentElement.querySelector('img');
+  const title = btn.closest('.section-block').querySelector('.section-title');
+  const comment = btn.closest('.section-block').querySelector('.section-comment');
+
+  // 画像srcとdata-alt-srcを入れ替え
+  const tmpSrc = img.src;
+  img.src = img.getAttribute('data-alt-src');
+  img.setAttribute('data-alt-src', tmpSrc);
+
+  // alt属性も入れ替え
+  const tmpAlt = img.alt;
+  img.alt = img.getAttribute('data-alt-alt');
+  img.setAttribute('data-alt-alt', tmpAlt);
+
+  // タイトルとコメントも入れ替え
+  const tmpTitle = title.textContent;
+  title.textContent = title.getAttribute('data-alt');
+  title.setAttribute('data-alt', tmpTitle);
+
+  const tmpComment = comment.textContent;
+  comment.textContent = comment.getAttribute('data-alt');
+  comment.setAttribute('data-alt', tmpComment);
 }
 </script>
